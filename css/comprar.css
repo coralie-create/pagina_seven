@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.carousel-container {
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    transform: translateX(-50%);
+}
+
+.next {
+    transform: translateX(50%);
+}
+/* ... (resto del código CSS) ... */
+
+/* ... (resto del código CSS) ... */
+
